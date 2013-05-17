@@ -279,7 +279,6 @@ static void check_collisions()
 		    init_ship(&ship, win_w / 2, win_h / 2, DEFAULT_SRADIUS);
 		    ship.invincible = 250;
 		    ship.status = INVINCIBLE;
-		    printf("HIT!\n");
 		    if (!--lives)
 		    {
 			game_over = 1;
